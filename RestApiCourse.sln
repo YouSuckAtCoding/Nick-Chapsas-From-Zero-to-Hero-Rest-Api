@@ -17,6 +17,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Application", "Movei
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Contract", "Movies.Contract\Movies.Contract.csproj", "{C100CAA0-650A-41F7-962E-839114354E99}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.BeyondTheBasics", "2.BeyondTheBasics", "{39CB8B3F-E3C1-4126-ACE9-D728A4B110BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Api", "C:\Users\marco\Documents\2.BeyondTheBasics\Movies.Api\Movies.Api.csproj", "{E47F76C2-FF85-43DA-8240-A65C54517A5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Application", "C:\Users\marco\Documents\2.BeyondTheBasics\Movies.Application\Movies.Application.csproj", "{DD9C02DD-C0CC-43B4-B54D-020B239C1113}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Contracts", "C:\Users\marco\Documents\2.BeyondTheBasics\Movies.Contracts\Movies.Contracts.csproj", "{F965E824-C31D-40E1-AA3A-F27B375FB895}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +43,18 @@ Global
 		{C100CAA0-650A-41F7-962E-839114354E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C100CAA0-650A-41F7-962E-839114354E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C100CAA0-650A-41F7-962E-839114354E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47F76C2-FF85-43DA-8240-A65C54517A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47F76C2-FF85-43DA-8240-A65C54517A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47F76C2-FF85-43DA-8240-A65C54517A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47F76C2-FF85-43DA-8240-A65C54517A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9C02DD-C0CC-43B4-B54D-020B239C1113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9C02DD-C0CC-43B4-B54D-020B239C1113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9C02DD-C0CC-43B4-B54D-020B239C1113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9C02DD-C0CC-43B4-B54D-020B239C1113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F965E824-C31D-40E1-AA3A-F27B375FB895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F965E824-C31D-40E1-AA3A-F27B375FB895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F965E824-C31D-40E1-AA3A-F27B375FB895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F965E824-C31D-40E1-AA3A-F27B375FB895}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +63,9 @@ Global
 		{A1A023D1-B400-4749-BBFF-5149923984D7} = {437837AA-AECD-4F38-BBB5-AE8873E1DCCC}
 		{07A5C999-35FE-4E96-A5E0-5D82904BECAB} = {437837AA-AECD-4F38-BBB5-AE8873E1DCCC}
 		{C100CAA0-650A-41F7-962E-839114354E99} = {437837AA-AECD-4F38-BBB5-AE8873E1DCCC}
+		{E47F76C2-FF85-43DA-8240-A65C54517A5B} = {39CB8B3F-E3C1-4126-ACE9-D728A4B110BB}
+		{DD9C02DD-C0CC-43B4-B54D-020B239C1113} = {39CB8B3F-E3C1-4126-ACE9-D728A4B110BB}
+		{F965E824-C31D-40E1-AA3A-F27B375FB895} = {39CB8B3F-E3C1-4126-ACE9-D728A4B110BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {834C2386-AC86-4FCC-BADB-5B5167B35E25}
