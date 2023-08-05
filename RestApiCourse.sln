@@ -43,6 +43,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Application", "C:\Us
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Contracts", "C:\Users\marco\Downloads\6.1\4.Ratings\Movies.Contracts\Movies.Contracts.csproj", "{A84C4236-22F0-4979-B2DE-9ABCA3649B82}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.AdvancedFeatures", "5.AdvancedFeatures", "{172EA0C0-18D0-4544-92AD-EE4027E2DE1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Api", "C:\Users\marco\Downloads\7.1\5.AdvancedFeatures\Movies.Api\Movies.Api.csproj", "{FA343413-1FA6-4A2A-A8A9-23B7AC9A1BA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Application", "C:\Users\marco\Downloads\7.1\5.AdvancedFeatures\Movies.Application\Movies.Application.csproj", "{A1F6EAB7-C43D-4E1A-91B4-F66A584FB6C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Contracts", "C:\Users\marco\Downloads\7.1\5.AdvancedFeatures\Movies.Contracts\Movies.Contracts.csproj", "{C57B6E86-6782-4C60-AD1E-D3B66A6D8E5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +109,18 @@ Global
 		{A84C4236-22F0-4979-B2DE-9ABCA3649B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A84C4236-22F0-4979-B2DE-9ABCA3649B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A84C4236-22F0-4979-B2DE-9ABCA3649B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA343413-1FA6-4A2A-A8A9-23B7AC9A1BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA343413-1FA6-4A2A-A8A9-23B7AC9A1BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA343413-1FA6-4A2A-A8A9-23B7AC9A1BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA343413-1FA6-4A2A-A8A9-23B7AC9A1BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F6EAB7-C43D-4E1A-91B4-F66A584FB6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F6EAB7-C43D-4E1A-91B4-F66A584FB6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F6EAB7-C43D-4E1A-91B4-F66A584FB6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F6EAB7-C43D-4E1A-91B4-F66A584FB6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C57B6E86-6782-4C60-AD1E-D3B66A6D8E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57B6E86-6782-4C60-AD1E-D3B66A6D8E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57B6E86-6782-4C60-AD1E-D3B66A6D8E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57B6E86-6782-4C60-AD1E-D3B66A6D8E5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +139,9 @@ Global
 		{CC6F4271-2887-43B3-A237-5862D5421DFA} = {19E8E22B-B4BF-48D4-BFA5-79B33F8E2ED4}
 		{90DE2831-4139-471D-8CD8-D4D01BF18D6D} = {19E8E22B-B4BF-48D4-BFA5-79B33F8E2ED4}
 		{A84C4236-22F0-4979-B2DE-9ABCA3649B82} = {19E8E22B-B4BF-48D4-BFA5-79B33F8E2ED4}
+		{FA343413-1FA6-4A2A-A8A9-23B7AC9A1BA6} = {172EA0C0-18D0-4544-92AD-EE4027E2DE1E}
+		{A1F6EAB7-C43D-4E1A-91B4-F66A584FB6C2} = {172EA0C0-18D0-4544-92AD-EE4027E2DE1E}
+		{C57B6E86-6782-4C60-AD1E-D3B66A6D8E5E} = {172EA0C0-18D0-4544-92AD-EE4027E2DE1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {834C2386-AC86-4FCC-BADB-5B5167B35E25}
