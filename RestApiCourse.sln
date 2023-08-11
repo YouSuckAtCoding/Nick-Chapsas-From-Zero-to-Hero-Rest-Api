@@ -59,9 +59,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Application", "C:\Us
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Contracts", "C:\Users\marco\Downloads\8.1\6.SDK\Movies.Contracts\Movies.Contracts.csproj", "{731D5821-C27E-4DD4-88DE-92EAFC221C3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api.Sdk", "Movies.Api.Sdk\Movies.Api.Sdk.csproj", "{35B82BCF-2117-475E-8526-8B25E849F8A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Api.Sdk", "Movies.Api.Sdk\Movies.Api.Sdk.csproj", "{35B82BCF-2117-475E-8526-8B25E849F8A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api.Sdk.Consumer", "Movies.Api.Sdk.Consumer\Movies.Api.Sdk.Consumer.csproj", "{B7DFB38C-2D6D-4C07-B7C9-7722E3A517E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Api.Sdk.Consumer", "Movies.Api.Sdk.Consumer\Movies.Api.Sdk.Consumer.csproj", "{B7DFB38C-2D6D-4C07-B7C9-7722E3A517E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.MinimalApi", "7.MinimalApi", "{68E20061-AA32-4A50-BE13-852F75580F56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApiExample", "C:\Users\marco\Downloads\9.1\7.MinimalApi\MinimalApiExample\MinimalApiExample.csproj", "{D856F6F5-8CFC-4E3B-B97C-8DCEACD72417}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Api", "C:\Users\marco\Downloads\9.1\7.MinimalApi\Movies.Api\Movies.Api.csproj", "{54039237-2236-41F1-B25D-4B98838113A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Api.Sdk", "C:\Users\marco\Downloads\9.1\7.MinimalApi\Movies.Api.Sdk\Movies.Api.Sdk.csproj", "{572B783E-782B-490B-A19F-BF6D47A45267}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Api.Sdk.Consumer", "C:\Users\marco\Downloads\9.1\7.MinimalApi\Movies.Api.Sdk.Consumer\Movies.Api.Sdk.Consumer.csproj", "{5A9ADB1F-CFB3-4606-ABBE-ABF015C4DA6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Application", "C:\Users\marco\Downloads\9.1\7.MinimalApi\Movies.Application\Movies.Application.csproj", "{CA8A76FA-4E57-43EE-A82A-86A93095B53E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Contracts", "C:\Users\marco\Downloads\9.1\7.MinimalApi\Movies.Contracts\Movies.Contracts.csproj", "{FA97632A-871C-46FD-AA80-AF3A4734605F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +167,30 @@ Global
 		{B7DFB38C-2D6D-4C07-B7C9-7722E3A517E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7DFB38C-2D6D-4C07-B7C9-7722E3A517E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7DFB38C-2D6D-4C07-B7C9-7722E3A517E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D856F6F5-8CFC-4E3B-B97C-8DCEACD72417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D856F6F5-8CFC-4E3B-B97C-8DCEACD72417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D856F6F5-8CFC-4E3B-B97C-8DCEACD72417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D856F6F5-8CFC-4E3B-B97C-8DCEACD72417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54039237-2236-41F1-B25D-4B98838113A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54039237-2236-41F1-B25D-4B98838113A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54039237-2236-41F1-B25D-4B98838113A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54039237-2236-41F1-B25D-4B98838113A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572B783E-782B-490B-A19F-BF6D47A45267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572B783E-782B-490B-A19F-BF6D47A45267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572B783E-782B-490B-A19F-BF6D47A45267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572B783E-782B-490B-A19F-BF6D47A45267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9ADB1F-CFB3-4606-ABBE-ABF015C4DA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9ADB1F-CFB3-4606-ABBE-ABF015C4DA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9ADB1F-CFB3-4606-ABBE-ABF015C4DA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9ADB1F-CFB3-4606-ABBE-ABF015C4DA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8A76FA-4E57-43EE-A82A-86A93095B53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8A76FA-4E57-43EE-A82A-86A93095B53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8A76FA-4E57-43EE-A82A-86A93095B53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8A76FA-4E57-43EE-A82A-86A93095B53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA97632A-871C-46FD-AA80-AF3A4734605F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA97632A-871C-46FD-AA80-AF3A4734605F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA97632A-871C-46FD-AA80-AF3A4734605F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA97632A-871C-46FD-AA80-AF3A4734605F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +217,12 @@ Global
 		{731D5821-C27E-4DD4-88DE-92EAFC221C3C} = {1F035B5D-E119-4E0C-AC88-6D06680BBC27}
 		{35B82BCF-2117-475E-8526-8B25E849F8A3} = {1F035B5D-E119-4E0C-AC88-6D06680BBC27}
 		{B7DFB38C-2D6D-4C07-B7C9-7722E3A517E9} = {1F035B5D-E119-4E0C-AC88-6D06680BBC27}
+		{D856F6F5-8CFC-4E3B-B97C-8DCEACD72417} = {68E20061-AA32-4A50-BE13-852F75580F56}
+		{54039237-2236-41F1-B25D-4B98838113A9} = {68E20061-AA32-4A50-BE13-852F75580F56}
+		{572B783E-782B-490B-A19F-BF6D47A45267} = {68E20061-AA32-4A50-BE13-852F75580F56}
+		{5A9ADB1F-CFB3-4606-ABBE-ABF015C4DA6A} = {68E20061-AA32-4A50-BE13-852F75580F56}
+		{CA8A76FA-4E57-43EE-A82A-86A93095B53E} = {68E20061-AA32-4A50-BE13-852F75580F56}
+		{FA97632A-871C-46FD-AA80-AF3A4734605F} = {68E20061-AA32-4A50-BE13-852F75580F56}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {834C2386-AC86-4FCC-BADB-5B5167B35E25}
